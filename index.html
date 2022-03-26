@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+
+    <header class="header">
+      <a href="#" class="logo"> <img src="./logo.png" alt="" /> </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fa fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./cart-item-1.png" alt="" />
+          <div class="content">
+            <h3>Arabica</h3>
+            <div class="price">₹700/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./cart-item-2.png" alt="" />
+          <div class="content">
+            <h3>Robusta</h3>
+            <div class="price">₹280/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./cart-item-3.png" alt="" />
+          <div class="content">
+            <h3>Liberica</h3>
+            <div class="price">₹370/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="./cart-item-4.png" alt="" />
+          <div class="content">
+            <h3>Excelsa</h3>
+            <div class="price">₹650/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout now</a>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh coffee in the morning</h3>
+        <p>
+          We spend inordinately long making coffee that is as good as it can be
+          in every single cup.
+        </p>
+        <a href="#" class="btn">get yours now</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span>us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./about-img.jpeg" />
+        </div>
+        <div class="content">
+          <h3>What makes our coffee</h3>
+          <p>
+            we buy our coffee from only the most reputable farms and mills in
+            Kona. Being a teacher in Kona for three decades, I taught some of
+            the farmers and some of their parents too - which goes a long way.
+          </p>
+          <p>
+            These boutique companies roast all beans of varying size together
+            because they cannot afford to waste any beans regardless of quality
+            and they don’t have enough beans for it to make sense to separate
+            them into different grades.
+          </p>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h1 class="heading">our<span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./menu-1.png" alt="" />
+          <h3>Latte</h3>
+          <div class="price">₹299<span>₹400</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="./menu-2.png" alt="" />
+          <h3>flat white</h3>
+          <div class="price">₹250<span>₹350</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="./menu-3.png" alt="" />
+          <h3>Americano</h3>
+          <div class="price">₹450<span>₹699</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="./menu-4.png" alt="" />
+          <h3>cappucino</h3>
+          <div class="price">₹320<span>₹550</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="./menu-5.png" alt="" />
+          <h3>decaf</h3>
+          <div class="price">₹650<span>₹750</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="./menu-6.png" alt="" />
+          <h3>macchiato</h3>
+          <div class="price">₹350<span>₹500</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">our<span>products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+
+          <div class="image">
+            <img src="./product-1.png" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹299<span>₹400</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+
+          <div class="image">
+            <img src="./product-2.png" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹450<span>₹575</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+
+          <div class="image">
+            <img src="./product-3.png" />
+          </div>
+          <div class="content">
+            <h3>fresh coffee</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">₹299<span>₹400</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's<span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./quote-img.png" alt="" class="quote" />
+          <p>
+            This coffee shop is my favorite place to hang and do my works. I
+            really like this place because it has a good ambiance and not too
+            crowded as well. The coffee and pastries that they had were so
+            delicious. The barista was so friendly and pleasant to talk with
+          </p>
+          <img src="./pic-1.png" class="user" alt="" />
+          <h3>Karthik</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./quote-img.png" alt="" class="quote" />
+          <p>
+            This place is very different and well organized according to other
+            places. The food is amazing, music of your choice. The owner is very
+            sweet… Ever the best café. The cost is fair for everything and the
+            atmosphere is good
+          </p>
+          <img src="./pic-2.png" class="user" alt="" />
+          <h3>anu</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./quote-img.png" alt="" class="quote" />
+          <p>
+            They offered the best coffee and showed the best attitude to its
+            costumers. Internet connection is very fast and is unlimited as
+            well. This place is indeed perfect for studying and chilling out
+          </p>
+          <img src="./pic-3.png" class="user" alt="" />
+          <h3>vikram</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span>us</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250357.58593733746!2d77.57565350018864!3d11.346593276993918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f46762f4671%3A0xd97da6e3d9c7f75e!2sErode%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1648309829622!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our<span>blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./blog-1.jpeg" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 28th september,2021</span>
+
+            <p>
+              If you like our coffee shops, then this is a must-visit! We will
+              be back again!The ambiance of our shop was so relaxing
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./blog-2.jpeg" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Instant coffee</a>
+            <span>by admin / 28th september,2021</span>
+
+            <p>
+              we have the best coffee available and even some fresh baked goods
+              as well. The ambiance of our shop was so relaxing, and the staffs
+              are highly capable
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./blog-3.jpeg" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Super Simple Iced Mocha</a>
+            <span>by admin / 28th september,2021</span>
+
+            <p>
+              No loud noises which will help you a lot to concentrate on what
+              you do. we have a variety of food and drinks you can select from
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">menu</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+        <a href="#">blogs</a>
+      </div>
+      <div class="credit">
+        created by <span>priya</span>| all right reserved
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
